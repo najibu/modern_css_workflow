@@ -1,12 +1,19 @@
 @extends('layouts')
 
-@section('body_class', 'join')
-
-
 @section('content')
-    <h1>Hello world</h1>
+    <div class="Card">
+        <h3>My Card</h3>
+    </div>
 
-    <div class="Testimonial {{ $testimonial->featured ? 'Testimonial--is--featured': ''}}">
-        
+    <div class="Card">
+        <h3>My Card</h3>
+    </div>
+
+    <div class="Card">
+        <h3>My Card</h3>
+    </div>
+
+    <div class="Card">
+        <h3>My Card</h3>
     </div>
 @endsection

@@ -5,9 +5,11 @@
   <title>Document</title>
   <link rel="stylesheet" href="/css/app.css">
 </head>
-<body class="@yield('body_class')">
-
-  @yield('section')
+<body>
+  
+  <div class="container">
+    @yield('content')
+  </div>
 
   @yield('footer')
 

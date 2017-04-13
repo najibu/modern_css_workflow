@@ -1,36 +1,14 @@
-/*Bootstrap*/
-/*@import 'vendor/normalize'*/
-/*@import 'typography'*/
-/*Components*/
-.Testimonial {
-  border: 10px solid;
+.container {
+  lost-utility: edit;
+  lost-center: 980px;
 }
-.Testimonial--is--featured {
-  width: 100%;
+.Card {
+  lost-waffle: 1/2;
+  height: 200px;
+  lost-align: center;
 }
-.Testimonial__body {
-  padding: 0 50px;
-}
-.Testimonial__name {
-  color: #f00;
-  text-align: center;
-}
-.Testimonial--is--featured .Testimonial__name {
-  text-align: left;
-}
-/* Page-specific sytles */
-.join {
-  background: #f00;
-}
-body {
-  color: #008000;
-}
-.heading {
-  color: inherit;
-  text-decoration: none;
-}
-.heading:hover {
-  text-decoration: underline;
+.Card h3 {
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=app.css.map */
